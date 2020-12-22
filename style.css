@@ -1,0 +1,157 @@
+body {
+    font-family: 'Montserrat', sans-serif;
+    background: rgb(46, 46, 46);
+    padding: 50px;
+    padding-top: 20px;;
+}
+
+html {
+    margin: 0 70px;
+}
+
+.home-button {
+    padding-left: 20px;
+}
+
+h1 {
+    color: white;
+    text-align: center;
+}
+
+.main-header {
+    background: rgb(104, 104, 104);
+    display: inline-block;
+    width: 80%;
+    border-radius: 10px;
+    border: 10px solid rgb(31, 31, 31);
+    position: fixed;
+    box-sizing: border-box;
+    top: 0;
+}
+
+.main-header > div {
+    display: inline-block;
+    vertical-align: middle;
+}
+
+.main-quote {
+    margin-top: 100px;
+    color: white;
+    text-align: center;
+    font-size: 32px;
+}
+
+.main-header__home {
+    display: inline-block;
+    font-weight: bold;
+    text-decoration: none;
+    color: rgb(235, 0, 0);
+}
+
+.main-nav {
+    display: inline-block;
+    text-align: right;
+    width: 90%;
+    vertical-align: middle;
+}
+
+.main-nav__items {
+    padding: 0;
+}
+
+.main-nav__item {
+    display: inline-block;
+    padding: 0 24px;
+    text-decoration: none;
+    font-weight: bold;
+    font-style: italic;
+}
+
+.main-nav__item a {
+    color: white;
+    text-decoration: none;
+}
+
+.main-quote {
+    font-style: italic;
+    padding-bottom: 16px;
+}
+
+img {
+    width: 40%;
+    height: 37%;
+    display: block;
+    margin: 32px auto;
+    border-radius: 50%;
+    border:7px solid rgb(13, 95, 143);
+    margin-bottom: 0;
+}
+
+.section {
+    background-color: rgb(31, 31, 31);
+    padding: 17px 32px;
+    border-radius: 10px;
+    width: 70%;
+    margin: 0 auto;
+}
+
+.sales-pitch {
+    padding-bottom: 32px;
+}
+
+.sales-pitch a {
+    text-decoration: none;
+    color: rgb(93, 93, 253);
+    font-weight: bold;
+}
+
+main {
+    color: white;
+    font-size: 20px;
+    padding: 40px;
+    width: 80%;
+    margin: 0 auto;
+}
+
+.contacts {
+    text-align: center;
+}
+
+.contacts a {
+    padding: 10px;
+    text-decoration: none;
+    color: rgb(93, 93, 253);
+    font-weight: bold;
+}
+
+#tests {
+    background-color: black;
+    padding: 4px;
+    margin: 32px auto;
+    text-align: center;
+    border-radius: 5px;
+    
+}
+
+#tests li {
+    width: 30%;
+    display: inline-block;
+    text-align: center;
+    vertical-align: top;
+    padding-left: 10px;
+    padding-right: 10px;
+}
+
+.tests-text {
+    font-size: 16px;
+}
+
+.main-footer {
+    text-align: center;
+    background-color: rgb(187, 64, 64);
+    padding: 7px 35px;
+}
+
+.main-footer__link {
+    list-style: none;
+}
