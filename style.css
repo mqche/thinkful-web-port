@@ -1,8 +1,10 @@
 body {
-    font-family: 'Montserrat', sans-serif;
+    /* font will be imported from google */
+    font-family: 'Roboto', sans-serif;
     background: rgb(46, 46, 46);
     padding: 50px;
-    padding-top: 20px;;
+    padding-top: 20px;
+    font-weight: 600;
 }
 
 html {
@@ -45,7 +47,7 @@ h1 {
     display: inline-block;
     font-weight: bold;
     text-decoration: none;
-    color: rgb(235, 0, 0);
+    color: rgb(255, 255, 255);
 }
 
 .main-nav {
@@ -73,6 +75,7 @@ h1 {
 }
 
 .main-quote {
+    /* distinguish quote with italics */
     font-style: italic;
     padding-bottom: 16px;
 }
@@ -82,6 +85,7 @@ img {
     height: 37%;
     display: block;
     margin: 32px auto;
+    /* image will be shaped into ellipse */
     border-radius: 50%;
     border:7px solid rgb(13, 95, 143);
     margin-bottom: 0;
@@ -125,25 +129,25 @@ main {
 }
 
 #tests {
-    background-color: black;
-    padding: 4px;
+    background-color: rgb(100, 72, 72);
+    padding: 2px;
     margin: 32px auto;
     text-align: center;
     border-radius: 5px;
     
 }
 
-#tests li {
-    width: 30%;
+#tests ol {
+    width: 80%;
     display: inline-block;
-    text-align: center;
+    text-align: left;
     vertical-align: top;
-    padding-left: 10px;
-    padding-right: 10px;
+    padding-left: 170px;
+    font-size: 20px;
 }
 
-.tests-text {
-    font-size: 16px;
+.tests__text {
+    margin: 20px;
 }
 
 .main-footer {
@@ -152,6 +156,8 @@ main {
     padding: 7px 35px;
 }
 
-.main-footer__link {
-    list-style: none;
+/* links to change to red for emphasis */
+a:hover,
+a:active {
+    color: red;
 }
