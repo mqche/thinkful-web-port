@@ -4,16 +4,20 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Minh Che Portfolio</title>
-    <link href="https://fonts.googleapis.com/css?family=Anton" rel="stylesheet">
+    <!-- font will be imported from google -->
+    <link rel="preconnect" href="https://fonts.gstatic.com">
+    <link href="https://fonts.googleapis.com/css2?family=Roboto:wght@300&display=swap" rel="stylesheet">            
     <link rel="stylesheet" href="style.css">
 </head>
 <body>
+    <!-- nav bar will be fixed to top -->
     <header class="main-header">
         <div class="home-button">
             <a href="index.html" class="main-header__home">
                 HOME
             </a>
         </div>
+        <!-- links to be added later -->
         <nav class="main-nav">
             <ul class="main-nav__items">
                 <li class="main-nav__item">
@@ -30,40 +34,35 @@
     </header>
     <h1 class="main-quote">"Dreamers are just visionary hitchhikers in search of a ride." - The Terminator</h1> 
     <img src="main-img.jpg" alt="man-looking-out-window">
+
     <main>
         <section>
             <div class="sales-pitch">
             <h2>Hi, my name is Minh. I'm from Boston, MA and welcome to my portfolio page.</h2> 
             <hr>
-            
             <p>I want to inspire you to bring your vision into reality. We all have ideas sitting in the recesses of our minds screaming to come out. Is it an online, small business you dream of starting? Are you a musician or an artist searching for a creative homebase? Or maybe you're a psycho trying to spread a political ideology only you can come up with. Whatever your desire, I am here to collaborate with you and to drive your vision forward.</p> 
             <p>As a reasonably likely Thinkful graduate, I am well-versed in both front-end and back-end development. My career of choice and creative outlet is web development. Please refer to my <a href="#">Portfolio Page</a> for samples of my work. My passion in writing and design will help your website stand out among the sea of mediocre web design. </p>
-            <p>Let's not waste precious time and push your ideas forward together before it's too late. The world seems like it will end at any moment. Let's get started today.</p> 
+            <p>Let's not waste precious time and push your ideas forward together before it's too late. The world seems like it will end at any moment. Let's get started today.</p>  
         <hr>
             </div>
+            <!-- sectioned off from .sales-pitch for custom formatting -->
         <div class="contacts">
             Contact me at: <a href="https://www.linkedin.com/in/minh-che-116b872b
             ">LinkedIn</a> <a href="https://github.com/mqche">GitHub</a> <a href="mailto:mche135@google.com">mche135@google.com</a>
         </div>
         </section>
-        
         <div id="tests">
             <h3>Testimonials</h3>
             <p></p>
             <hr>
             <ol>
-                <li>
-                    <p class="tests-text">"I would trust him as far as I can throw him."</p>
-                    <p>Mike Smith</p>
+                <li class="tests__text">"I would trust him as far as I can throw him." - Mike Smith
                 </li>       
-                <li>
-                    <p class="tests-text">"Yeah, I know but I can't afford anyone else."</p> 
-                    <p>Steve Holt</p>
+                <li class="tests__text">"Yeah, I know but I can't afford anyone else." - Steve Holt
                 </li>
-                <li>
-                    <p class="tests-text">"Is this guy serious?? Another black color scheme."</p>
-                    <p class="jane">Jane Doe</p>
+                <li class="tests__text">"Is this guy serious?? Another black color scheme." - Jane Doe
                 </li>
+                <!-- more to be added later -->
             </ol>
         </div>
     </main>
